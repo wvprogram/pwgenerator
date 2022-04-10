@@ -10,7 +10,7 @@ const password = document.querySelector(".password");
 const copyBtn = document.getElementById("copyBtn");
 
 // set length of text area to the password length
-password.setAttribute('size', 10);
+password.setAttribute('size', 12);
 
 // function to get and display new password
 btn.addEventListener('click', function() {
